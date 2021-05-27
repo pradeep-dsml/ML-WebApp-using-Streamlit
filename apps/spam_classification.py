@@ -1,4 +1,4 @@
-"""
+
 import streamlit as st
 import joblib
 
@@ -11,6 +11,10 @@ def app():
   
   if st.button("Predict"):
     result=model.predict(text)
+    
+  st.success("your text is {}".format(result)
+  
+  """
     if result == "0"
       st.write("your text is not spam!")
     else
