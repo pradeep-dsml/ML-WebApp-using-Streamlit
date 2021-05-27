@@ -10,7 +10,7 @@ def app():
   
   if st.button("Predict"):
     result=model.predict(text)
-    if result==0
+    if result == "0"
       st.write("your text is not spam!")
     else
       st.write("your text is spam!")
