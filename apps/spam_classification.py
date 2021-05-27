@@ -4,7 +4,7 @@ import joblib
 
 def app():
   st.title("this is spam classification app")
-  model_path="spam_classification_model.joblib"
+  model_path="https://github.com/pradeep-dsml/ML-WebApp-using-Streamlit/blob/main/apps/spam_classification_model.joblib"
   model=joblib.load(model_path)
   
   text=st.text_input("type your text here")
