@@ -15,5 +15,6 @@ This multi-page app is using the [streamlit-multiapps](https://github.com/uprane
 app.add_app("Home", home.app)
 app.add_app("Data", data.app)
 app.add_app("Model", model.app)
+app.add_app("spam_classification",spam_classification.app)
 # The main app
 app.run()
