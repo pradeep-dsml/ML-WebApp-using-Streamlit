@@ -1,8 +1,9 @@
 import streamlit as st
 import joblib
 
-model_path="spam_classification_model.joblib"
 def app():
+  st.title("this is spam classification app")
+  model_path="spam_classification_model.joblib"
   model=joblib.load(model_path)
   
   text=st.text_input("type your text here")
